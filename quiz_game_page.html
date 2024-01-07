@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>The Maths Quiz</title>
+        <link rel="stylesheet" type="text/css" href="quiz_page.css">
+        <script src="quiz_game.js"></script>
+    </head>
+    <body>
+        <h4 id="player1_name"></h4> <span id="player1_score"></span>
+        <br>
+        <h4 id="player2_name"></h4> <span id="player2_score"></span>
+
+        <div class="container" align="center">
+                <h2 style="color: white;">The Maths Quiz!</h2>
+        </div>
+        <div id="output">
+            <label id="question"></label>
+            <br>
+            <br>
+            <label id="ans">Answer : </label>
+            <input type="text" id="answer" placeholder="Enter Your Answer">
+            <br>
+            <br>
+            <button id="check_btn">Check</button>
+        </div>
+        <div id="number1">
+            <h3 id="no1">Number 1</h3>
+            <input type="text" id="text1" placeholder="Enter A Number">
+        </div>
+        <div id="number2">
+            <h3 id="no2">Number 2</h3>
+            <input type="text" id="text2" placeholder="Enter A Number">
+        </div>
+        <button id="button1" onclick="addNumber()">Send</button>
+    </body>
+</html>
