@@ -1,18 +1,18 @@
 body
 {
 background-color: red;
+text-align: center;
 }
 #check_btn
 {
-    background-color: lightblue;
+    background-color: rgb(2, 185, 247);
 }
 #output
 {
     background: white;
-    border-radius: 10px;
-    border-top: 10px solid #AA4465;
-    padding: 10px;
-    float: none;
-    text-align: left;
-    width: 50%;
+}
+#button1
+{
+    background-color: black;
+    color: rgb(0, 238, 255);
 }
